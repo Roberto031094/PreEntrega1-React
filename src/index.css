@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(179, 223, 181), rgb(206, 206, 206), rgb(179, 223, 181));
+  overflow-x: hidden;
+}
+
+.product-grid{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.patrocinio{
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+}
+
+.product{
+  margin: 20px;
+  text-align: center;
+  border: 3px solid black;
+  width: 250px;
+  height: 320px;
+  border-radius: 20px;
+  background-color: rgb(240, 240, 240);
+}
+
+.imagen_producto{
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.titulo_seccion{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.boton_adquirir{
+  margin: 5px;
+}
+
+.boton{
+  margin-top: 5px;
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.seccion_header{
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
