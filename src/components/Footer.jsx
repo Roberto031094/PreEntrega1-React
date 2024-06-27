@@ -1,7 +1,7 @@
 function Footer(){
     return (
       <footer className="patrocinio">
-          <p>&copy; Patrocinado por CoderHouse</p>
+          <p>&copy; Patrocinado por CoderHouse React</p>
       </footer>
     )
 }

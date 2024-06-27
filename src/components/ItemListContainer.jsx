@@ -1,7 +1,7 @@
 function Greeting(props){
     return (
       <div className="product">
-        <h1>{props.saludo}</h1>
+        <h1>{props.greeting}</h1>
       </div>
     );
 }
@@ -11,7 +11,7 @@ const Renderizado = () => {
       <section className="products">
         <div className="product-grid">
           <Greeting
-            saludo="Bienvenido"
+            greeting="Bienvenido"
           />
         </div>
       </section>
